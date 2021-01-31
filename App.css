@@ -1,0 +1,77 @@
+.App{
+  display: flex;
+  margin: 12px;
+
+}
+button{
+  margin: 4px;
+  padding: 10px 5px 10px 5px;
+  width: 100%;
+  /*background-color:#efefef;*/
+  background-color:#6a8cfd;
+  outline:none;
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: monospace,CustomSerif,Georgia,Cambria,Times New Roman,serif!important;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  color: #ffffff;
+  
+}
+button:hover{
+  background-color:#1e6ac2;
+}
+
+
+.sideBar{
+  display: block;
+  margin: 53px 10px 0px 50px;
+  float: left;
+  width: 12%;
+}
+
+.notediv{
+  margin: 4px;
+  padding: 2px;
+  background-color: rgb(238, 238, 238);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(180, 180, 180);
+}
+
+.main{
+  margin: 10px 0px 0px 50px;
+  float: left;
+}
+
+h1{
+  margin: 2px;
+  font-family: monospace,CustomSerif,Georgia,Cambria,Times New Roman,serif;
+  color: rgb(117, 117, 117);
+}
+
+.Title{
+  border-style: none;
+  outline: none;
+  font-family: monospace,CustomSerif,Georgia,Cambria,Times New Roman,serif!important;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 30px;
+  color: #000000;
+}
+.editor{
+  display: block;
+}
+
+textarea{
+  width: 800px;
+  height: 500px;
+  outline: none;
+  font-family: monospace,CustomSerif,Georgia,Cambria,Times New Roman,serif!important;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 17px;
+  color: #000000;
+}

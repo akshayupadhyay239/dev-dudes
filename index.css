@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  font-family: monospace,CustomSerif,Georgia,Cambria,Times New Roman,serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
